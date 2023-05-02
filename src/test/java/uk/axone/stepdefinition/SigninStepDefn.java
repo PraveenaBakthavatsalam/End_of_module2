@@ -45,7 +45,7 @@ public class SigninStepDefn {
     public void verify_my_appears_in_top_menu(String name) {
         WebElement namedisplay = driver.findElement(By.xpath("//span[contains(text(),name)]"));
         if(namedisplay!=null){
-            System.out.println("Displayed name is" + namedisplay.getText());
+            System.out.println("Display name is" + namedisplay.getText());
         }
         else{
             System.out.println("Login unsuccessful");
